@@ -1,15 +1,15 @@
 module github.com/k8snetworkplumbingwg/rdma-cni
 
-go 1.24.2
+go 1.25.3
 
 require (
 	github.com/Mellanox/rdmamap v1.1.0
 	github.com/containernetworking/cni v1.3.0
-	github.com/containernetworking/plugins v1.8.0
-	github.com/onsi/ginkgo/v2 v2.27.2
-	github.com/onsi/gomega v1.38.2
+	github.com/containernetworking/plugins v1.9.0
+	github.com/onsi/ginkgo/v2 v2.27.3
+	github.com/onsi/gomega v1.38.3
 	github.com/rs/zerolog v1.34.0
-	github.com/spf13/afero v1.14.0
+	github.com/spf13/afero v1.15.0
 	github.com/stretchr/testify v1.11.1
 	github.com/vishvananda/netlink v1.3.1
 )
